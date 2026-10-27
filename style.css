@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #f2f4f8;
+    font-family: "Trebuchet MS", sans-serif;;
+}
+
+.parent{
+    position: absolute;
+    width: 275px;
+    background-color: white;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.save{
+    background-color: #6e2594;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    border-radius: 0px 15px 15px 0px;
+    padding: 3px 10px;
+    margin-top: 14px;
+}
+
+.parent img{
+    width: 100%;
+}
+
+.details{
+    padding: 10px;
+}
+
+.details a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.details ul {
+    padding: 19px 0px 10px 18px;
+}
+
+.details ul li{
+    font-size: 13px;
+    color: #666666;
+    padding: 0px 0px 10px;
+}
+
+.price{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eeeeee;
+}
+
+.new{
+    color: #d51e0b;
+}
+
+.old{
+    color: #666666;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.button button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.button button:first-child{
+    background-color: #f5f6fc;
+}
+
+.button button:last-child{
+    background-color: white;
+    color: #666666;
+}
+
+.button button:first-child:hover{
+    background-color: #3749bb;
+    color: white;
+}
+
+.button button:last-child:hover{
+    background-color: #e8e8e8;
+    color: black;
+}
+
+
+.details a:hover{
+    color: #d62815;
+    text-decoration: underline;
+}
